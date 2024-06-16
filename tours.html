@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <title>Tour Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            background-image: url(tourBack.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+        .hero button {
+            background-color: #333;
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .hero button:hover {
+            background-color: #555;
+        }
+        .tours {
+            padding: 2rem;
+            background-color: white;
+        }
+        .tour {
+            display: flex;
+            margin-bottom: 2rem;
+        }
+        .tour img {
+            width: 200px;
+            height: auto;
+            margin-right: 1rem;
+        }
+        .tour h3 {
+            margin: 0.5rem 0;
+        }
+        .tour p {
+            margin: 0.5rem 0;
+            color: #666;
+        }
+        .testimonials {
+            background-color: #f9f9f9;
+            padding: 2rem;
+            text-align: center;
+        }
+        .testimonial {
+            margin-bottom: 2rem;
+        }
+        .testimonial p {
+            font-style: italic;
+        }
+        .testimonial .author {
+            margin-top: 0.5rem;
+            font-weight: bold;
+        }
+        .cta {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        .cta h2 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        .cta p {
+            font-size: 1rem;
+            margin: 1rem 0;
+        }
+        .cta button {
+            background-color: white;
+            color: #333;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .cta button:hover {
+            background-color: #f4f4f4;
+        }
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore the World with Us</h1>
+    </header>
+    <nav>
+        <a href="tours.html">Tours</a>
+        <a href="merchs.html">Merchs</a>
+        <a href="contact.html">Contact</a>
+        <a href="home.html">Home</a>
+    </nav>
+    <div class="hero">
+        <h1>Your Adventure Awaits</h1>
+        <p>Discover amazing places with our exclusive tours.</p>
+        
+    </div>
+    <div class="tours" id="tours">
+        <h2>Our Tours</h2>
+        <div class="tour">
+            <img src="tour1.jfif" alt="Tour 1">
+            <div>
+                <h3>Ball Arena (Aug, 15 2024)</h3>
+                <p>Experience the beauty and madness at the concert in Ball Arena.</p>
+            </div>
+        </div>
+        <div class="tour">
+            <img src="tour2.jpg" alt="Tour 2">
+            <div>
+                <h3>Delta Center (Aug, 18, 2024)</h3>
+                <p>Embark on an exciting adventure and witness the magnificent nightlife of Delta.</p>
+            </div>
+        </div>
+        <div class="tour">
+            <img src="tour3.jpg" alt="Tour 3">
+            <div>
+                <h3>Moda Center (Aug, 22 2024)</h3>
+                <p>Explore and listen to the new single Overcompensate here at Moda Center.</p>
+            </div>
+        </div>
+
+        <h3>If you want to see the full schedule of tours please click the button below</h3>
+        <a href="https://www.twentyonepilots.com/tour"><button>Tours</button></a>
+       
+    </div>
+    <div class="testimonials" id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"The Paris tour was an unforgettable experience! Highly recommended."</p>
+            <div class="author">- John Doe</div>
+        </div>
+        <div class="testimonial">
+            <p>"Our safari in Kenya was amazing. The guides were knowledgeable and the wildlife was incredible."</p>
+            <div class="author">- Jane Smith</div>
+        </div>
+        
+    </div>
+    <div class="cta" id="cta">
+        <h2>Book Your Adventure Today</h2>
+        <p>Sign up now to secure your spot on one of our exclusive tours.</p>
+        <button>Book Now</button>
+    </div>
+    <div class="privacy-policy">
+        <a href="Privacy.html">Privacy Policy</a>
+    </div>
+    <footer id="contact">
+        <p>Contact us at: michaeldarryl@gmail.com</p>
+    </footer>
+    
+    </div>
+</body>
+</html>
